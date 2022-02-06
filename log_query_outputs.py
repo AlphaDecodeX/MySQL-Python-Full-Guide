@@ -5,7 +5,7 @@ import inspect;
 if __name__ == "__main__":
 
     ## TODO: Initialize the DbStreamer object
-    db_streamer = None
+    db_streamer = DbStreamer('localhost', 'root', '1552454fghLPSK@$', 'moviesDb')
 
     # Do not modify any code below this line. Once you fill in the code for each of the methods, the output will be logged in separate files in the query_ouputs directory via this script.
     attrs = (getattr(db_streamer, name) for name in dir(db_streamer))
