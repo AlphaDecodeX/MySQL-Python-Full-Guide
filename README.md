@@ -28,6 +28,8 @@ pip install MySQL-python
 mkdir query_outputs
 ```
 
+# Assignment 1
+
 # Movies Database
 
 ```python
